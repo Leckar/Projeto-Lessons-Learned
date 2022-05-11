@@ -9,17 +9,13 @@ body {
   margin-left: 1vh;
   font-size: 16px;
   font-family: monospace, sans-serif;
-	line-height: auto;
+  line-height: auto;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  background-image: linear-gradient(
-    to right,
-    rgb(137, 92, 57),
-    rgb(122, 65, 0)
-  );
+  background-image: linear-gradient(to right, rgb(137, 92, 57), rgb(122, 65, 0));
   width: 100vh;
   text-align: left;
   padding-left: 15px;
@@ -30,17 +26,15 @@ body {
 
 #minha_foto {
   padding: 5px;
-  border-radius: 25%;
-  width: 50%;
+  border-radius: 25px;
+  width: 80%;
 }
 
-main,
-footer,
-nav,
-aside {
+main , footer , nav , aside {
   margin: 5vh;
   padding: 5vh;
   border: solid rgb(143, 87, 44) 2px;
+  border-radius: 25px;
 }
 
 footer {
@@ -59,10 +53,6 @@ main {
   padding: 1vh;
 }
 
-#table_element {
-  border: 2px black solid;
-}
-
 aside {
   text-align: left;
   width: 30%;
@@ -71,17 +61,11 @@ aside {
   margin-left: auto;
 }
 
-th,
-td {
-  border: 2px black solid;
-}
-
 .content-box {
   display: flex;
   justify-content: center;
 }
 
-.lado-esquerdo,
-.lado-direito {
+.lado-esquerdo , .lado-direito {
   width: 50%;
 }
